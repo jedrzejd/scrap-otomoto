@@ -2,6 +2,7 @@
 car_models.txt
 car.csv
 car.plk
+.ipynb_checkpoints/
 # Byte-compiled / optimized / DLL files
 .idea/
 __pycache__/
