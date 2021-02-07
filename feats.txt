@@ -1,0 +1,104 @@
+Oferta od
+Kategoria
+Marka pojazdu
+Model pojazdu
+Wersja
+Generacja
+Rok produkcji
+Przebieg
+Pojemność skokowa
+Rodzaj paliwa
+Moc
+Skrzynia biegów
+Napęd
+Emisja CO2
+Typ
+Liczba drzwi
+Liczba miejsc
+Kolor
+Metalik
+Kierownica po prawej (Anglik)
+Kraj pochodzenia
+Leasing
+VAT marża
+Możliwość finansowania
+Pierwsza rejestracja
+Zarejestrowany w Polsce
+Pierwszy właściciel
+Bezwypadkowy
+Serwisowany w ASO
+Stan
+ABS
+CD
+Centralny zamek
+Elektryczne szyby przednie
+Elektrycznie ustawiane lusterka
+Immobilizer
+Poduszka powietrzna kierowcy
+Poduszka powietrzna pasażera
+Radio fabryczne
+Wspomaganie kierownicy
+Alarm
+Alufelgi
+ASR (kontrola trakcji)
+Asystent parkowania
+Asystent pasa ruchu
+Bluetooth
+Czujnik deszczu
+Czujnik martwego pola
+Czujnik zmierzchu
+Czujniki parkowania przednie
+Czujniki parkowania tylne
+Dach panoramiczny
+Elektrochromatyczne lusterka boczne
+Elektrochromatyczne lusterko wsteczne
+Elektryczne szyby tylne
+Elektrycznie ustawiane fotele
+ESP (stabilizacja toru jazdy)
+Gniazdo AUX
+Gniazdo SD
+Gniazdo USB
+Hak
+HUD (wyświetlacz przezierny)
+Isofix
+Kamera cofania
+Klimatyzacja automatyczna
+Klimatyzacja czterostrefowa
+Klimatyzacja dwustrefowa
+Klimatyzacja manualna
+Komputer pokładowy
+Kurtyny powietrzne
+Łopatki zmiany biegów
+MP3
+Nawigacja GPS
+Odtwarzacz DVD
+Ogranicznik prędkości
+Ogrzewanie postojowe
+Podgrzewana przednia szyba
+Podgrzewane lusterka boczne
+Podgrzewane przednie siedzenia
+Podgrzewane tylne siedzenia
+Poduszka powietrzna chroniąca kolana
+Poduszki boczne przednie
+Poduszki boczne tylne
+Przyciemniane szyby
+Radio niefabryczne
+Regulowane zawieszenie
+Relingi dachowe
+System Start-Stop
+Szyberdach
+Światła do jazdy dziennej
+Światła LED
+Światła przeciwmgielne
+Światła Xenonowe
+Tapicerka skórzana
+Tapicerka welurowa
+Tempomat
+Tempomat aktywny
+Tuner TV
+Wielofunkcyjna kierownica
+Zmieniarka CD
+Cena
+Szczegóły ceny
+Waluta
+Opis
