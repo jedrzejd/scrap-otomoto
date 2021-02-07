@@ -57,8 +57,6 @@ def scrap_model(model):
     time.sleep(0.25)
 
 
-# models = models[99:100]
-
 # for model in models:
 #     scrap_model(model)
 filenames = ['data/'+ model.replace('\n', '') + '.csv' for model in models]
