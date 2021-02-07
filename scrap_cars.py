@@ -56,8 +56,8 @@ def scrap_model(model):
     time.sleep(0.25)
 
 
-# for model in models:
-#     scrap_model(model)
+for model in models:
+    scrap_model(model)
 
 filenames = ['data/'+ model.replace('\n', '') + '.csv' for model in models]
 
@@ -65,7 +65,9 @@ combined_csv = []
 for f in filenames:
     print(f)
     try:
-        combined_csv.append(pd.read_csv(f, low_memory=False))
+        combined_csv.append(pd.read_csv(f, low_memory=False, index_col='Unnamed: 0'))
     except Exception:
         pass
-pd.concat(combined_csv).to_pickle('car.plk')
+
+# pd.concat(combined_csv, ignore_index = True).to_csv('data/car.csv', index=False)
+pd.concat(combined_csv, ignore_index = True).to_pickle('data/car.pickle')

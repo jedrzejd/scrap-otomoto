@@ -1,7 +1,7 @@
 # Local files
 car_models.txt
-car.csv
-car.plk
+data/car.csv
+data/car.plk
 .ipynb_checkpoints/
 # Byte-compiled / optimized / DLL files
 .idea/
