@@ -68,4 +68,4 @@ for f in filenames:
         combined_csv.append(pd.read_csv(f, low_memory=False))
     except Exception:
         pass
-pd.concat(combined_csv).to_csv('car.csv')
+pd.concat(combined_csv).to_pickle('car.plk')

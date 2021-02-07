@@ -14,7 +14,7 @@ This program gets more than 96% advertisements from [otomoto.pl](https://otomoto
 
 Program saves datasets to ```data/``` directory.
 
-Each the car brand has a separate file ```car_name.csv``` with data and have ```car.h5``` with all cars.
+Each the car brand has a separate file ```car_name.csv``` with data and have ```car.plk``` with all cars.
 
 
 ## Usage
