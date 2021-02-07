@@ -1,6 +1,7 @@
 # Local files
 car_models.txt
 feats.txt
+car.csv
 # Byte-compiled / optimized / DLL files
 .idea/
 __pycache__/
