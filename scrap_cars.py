@@ -8,7 +8,6 @@ import pandas as pd
 MAX_THREADS = 8
 
 models = open('car_models.txt').readlines()
-
 links = []
 
 
@@ -59,8 +58,8 @@ def scrap_model(model):
 
 # for model in models:
 #     scrap_model(model)
-filenames = ['data/'+ model.replace('\n', '') + '.csv' for model in models]
 
+filenames = ['data/'+ model.replace('\n', '') + '.csv' for model in models]
 
 combined_csv = []
 for f in filenames:
