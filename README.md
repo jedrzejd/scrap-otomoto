@@ -1,6 +1,6 @@
 # scrap-otomoto
 
-This program gets more than 98% advertisements from [otomoto.pl](https://otomoto.pl) with 110 features - [show features](feats.txt)
+This program gets more than 98% advertisements from [otomoto.pl](https://otomoto.pl) with 104 features - [show features](feats.txt)
 
 ---
 
