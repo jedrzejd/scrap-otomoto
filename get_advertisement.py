@@ -5,7 +5,6 @@ import concurrent.futures
 
 
 MAX_THREADS = 8
-path = 'https://www.otomoto.pl/oferta/alfa-romeo-giulietta-gwarancja-2-0-jtdm-power-170-km-skora-nawigacja-103-tys-ID6D82nV.html#7e03cf2765'
 
 
 def make_line(main_features):
