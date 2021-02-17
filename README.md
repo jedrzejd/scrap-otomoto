@@ -16,6 +16,7 @@ Program saves datasets to ```data/``` directory.
 
 Each the car brand has a separate file ```car_name.csv``` with data and have ```car.pickle``` with all cars.
 
+Results should be 12 hours later.
 
 ## Usage
 
