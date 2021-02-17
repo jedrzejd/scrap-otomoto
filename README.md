@@ -32,3 +32,5 @@ pip install -r Requirements.txt
 
 ## Technologies
 - Python 3
+- beautifulsoup4
+- requests
