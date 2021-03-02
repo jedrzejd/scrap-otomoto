@@ -1,5 +1,4 @@
-# Local files
-car_models.txt
+# Local file
 data/car.csv
 data/car.plk
 .ipynb_checkpoints/
