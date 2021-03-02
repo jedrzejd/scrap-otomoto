@@ -1,5 +1,5 @@
 import requests, bs4
-
+import unidecode
 
 path = 'https://www.otomoto.pl/osobowe/acura/'
 
@@ -15,6 +15,7 @@ car_model = []
 for model in models[1:]:
     name = model.text.strip().split()[:-1]
     name = "-".join(name).lower()
+    name = unidecode.unidecode(name)
     print(name)
     car_model.append(name)
 
