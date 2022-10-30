@@ -18,10 +18,12 @@ def get_cars_in_page(path, i):
     res = requests.get(path + '?page=' + str(i))
     res.raise_for_status()
     currentPage = bs4.BeautifulSoup(res.text, features='lxml')
-    carlinks = currentPage.find_all('a', class_='offer-title__link', href=True)
+    carlinks = currentPage.find_all('article', class_='ooa-15j3s1f e1b25f6f0')
     cnt = 0
     for x in carlinks:
+        x = x.find('a', href=True)
         links.append(x['href'])
+        # print(x['href'])
 
 
 def scrap_model(model):
@@ -31,7 +33,6 @@ def scrap_model(model):
     try:
         res = requests.get(path)
         res.raise_for_status()
-
         carSoup = bs4.BeautifulSoup(res.text, features="lxml")
     except Exception:
         pass
