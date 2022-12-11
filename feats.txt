@@ -1,5 +1,7 @@
 Oferta od
 Kategoria
+Pokaż oferty z numerem VIN
+Ma numer rejestracyjny
 Marka pojazdu
 Model pojazdu
 Wersja
@@ -10,17 +12,25 @@ Pojemność skokowa
 Rodzaj paliwa
 Moc
 Skrzynia biegów
+Autonomia
 Napęd
+Pojemność baterii
+Rodzaj własności baterii
 Emisja CO2
-Typ
+Filtr cząstek stałych
+Spalanie W Mieście
+Typ nadwozia
 Liczba drzwi
 Liczba miejsc
 Kolor
 Metalik
+Rodzaj koloru
 Kierownica po prawej (Anglik)
 Kraj pochodzenia
 Leasing
 VAT marża
+Faktura VAT
+Okres gwarancji producenta
 Możliwość finansowania
 Pierwsza rejestracja
 Zarejestrowany w Polsce
@@ -29,9 +39,14 @@ Bezwypadkowy
 Serwisowany w ASO
 Stan
 ABS
+Apple CarPlay
+Android Auto
+Boczne poduszki powietrzne - tył
+Boczna poduszka powietrzna kierowcy
 CD
 Centralny zamek
 Elektryczne szyby przednie
+Elektrycznie ustawiany fotel pasażera
 Elektrycznie ustawiane lusterka
 Immobilizer
 Poduszka powietrzna kierowcy
@@ -41,64 +56,172 @@ Wspomaganie kierownicy
 Alarm
 Alufelgi
 ASR (kontrola trakcji)
+Alarm ruchu poprzecznego z tyłu pojazdu
 Asystent parkowania
+Asystent hamowania awaryjnego w mieście
+Asystent hamowania - Brake Assist
+Aktywny asystent zmiany pasa ruchu
+Asystent jazdy w korku
+Aktywne rozpoznawanie znaków ograniczenia prędkości
+Asystent (czujnik) martwego pola
+Asystent świateł drogowych
+Asystent zapobiegania kolizjom na skrzyzowaniu
 Asystent pasa ruchu
-Bluetooth
+Automatyczna kontrola zjazdu ze stoku
+Boczne poduszki powietrzne - przód
+Cyfrowy kluczyk
 Czujnik deszczu
 Czujnik martwego pola
 Czujnik zmierzchu
 Czujniki parkowania przednie
 Czujniki parkowania tylne
 Dach panoramiczny
+Dach otwierany elektrycznie
+Dostęp do internetu
+Dynamiczne światła doświetlające zakręty
+Dźwignia zmiany biegów wykończona skórą
+Ekran dotykowy
 Elektrochromatyczne lusterka boczne
 Elektrochromatyczne lusterko wsteczne
 Elektryczne szyby tylne
 Elektrycznie ustawiane fotele
-ESP (stabilizacja toru jazdy)
+Elektryczny hamulec postojowy
+Elektroniczny system rozdziału siły hamowania
+Elektroniczna kontrola ciśnienia w oponach
+Elektroniczna regul. charakterystyki zawieszenia
+Elektrycznie ustawiany fotel kierowcy
+ESP
+Felgi aluminiowe od 21
+Felgi aluminiowe 19
+Fotele przednie wentylowane
+Fotele przednie z funkcje masażu
+Funkcja szybkiego ładowania
 Gniazdo AUX
 Gniazdo SD
 Gniazdo USB
 Hak
+Hamulce z kompozytów ceramicznych
 HUD (wyświetlacz przezierny)
+Interfejs Bluetooth
 Isofix
+Kabel do ładowania
+Kamera panoramiczna 360
 Kamera cofania
+Kamera parkowania tył
+Kamera w lusterku bocznym
+Kierownica ze sterowaniem radia
+Kierownica skórzana
+Kierownica wielofunkcyjna
+Kierownica sportowa
+Kierownica ogrzewana
 Klimatyzacja automatyczna
 Klimatyzacja czterostrefowa
+Klimatyzacja automatyczna: 3 strefowa
 Klimatyzacja dwustrefowa
+Klimatyzacja automatyczna, dwustrefowa
+Klimatyzacja automatyczna: 4 lub wiêcej strefowa
 Klimatyzacja manualna
+Klimatyzacja dla pasażerów z tyłu
 Komputer pokładowy
-Kurtyny powietrzne
+Kontrola trakcji
+Kontrola odległości od poprzedzającego pojazdu
+Kontrola odległości z tyłu (przy parkowaniu)
+Kontrola odległości z przodu (przy parkowaniu)
+Kurtyny powietrzne - przód
+Kurtyny powietrzne - tył
+Keyless Go
+Keyless entry
+Lane assist - kontrola zmiany pasa ruchu
+Lampy tylne w technologii LED
+Lampy przednie w technologii LED
+Lampy bi-ksenonowe
+Lampy ksenonowe
+Lampy doświetlające zakręt
+Lampy przeciwmgielne
+Lampy przeciwmgielne w technologii LED
+Lusterka boczne ustawiane elektrycznie
+Lusterka boczne składane elektrycznie
+Ładowanie bezprzewodowe urządzeń
 Łopatki zmiany biegów
 MP3
 Nawigacja GPS
+Niezależny system parkowania
 Odtwarzacz DVD
 Ogranicznik prędkości
 Ogrzewanie postojowe
+Ogrzewane siedzenia tylne
+Opony runflat
+Opony letnie
+Opony wielosezonowe
+Oświetlenie drogi do domu
+Oświetlenie wnętrza LED
+Oświetlenie adaptacyjne
+Park Assistant - asystent parkowania
 Podgrzewana przednia szyba
 Podgrzewane lusterka boczne
 Podgrzewane przednie siedzenia
 Podgrzewane tylne siedzenia
+Podłokietniki - przód
+Podłokietniki - tył
 Poduszka powietrzna chroniąca kolana
 Poduszki boczne przednie
 Poduszki boczne tylne
+Poduszka powietrzna centralna
+Poduszka kolan kierowcy
+Poduszka kolan pasażera
+Poduszka powietrzna pasów bezpieczeństwa zm tyłu
+Podgrzewany fotel pasażera
 Przyciemniane szyby
+Przyciemniane tylne szyby
 Radio niefabryczne
+Radio
 Regulowane zawieszenie
+Regul. elektr. podparcia lędźwiowego - kierowca
+Regul. elektr. podparcia lędźwiowego - pasażer
 Relingi dachowe
-System Start-Stop
+Rolety na bocznych szybach opuszczane ręcznie
+Siedzenie z pamięcią ustawienia
+Sportowe fotele - przód
+Spryskiwacze reflektorów
+Sterowanie funkcjami pojazdu za pomocą głosu
+System minimalizujący skutki kolizji
+System wspomagania hamowania
+System ostrzegający o możliwej kolizji
+System rekomendacji przerw podczas trasy
+System powiadamiania o wypadku
+System Start/Stop
+System nawigacji satelitarnej
+System odzyskiwania energii
+System nagłośnienia
+System hamowania awaryjnego dla ochrony pieszych
+System rozpoznawania znaków drogowych
 Szyberdach
+Szyberdach szklany - przesuwny i uchylny elektrycz
 Światła do jazdy dziennej
 Światła LED
+Światła do jazdy dziennej diodowe LED
 Światła przeciwmgielne
 Światła Xenonowe
 Tapicerka skórzana
+Tapicerka Alcantara
 Tapicerka welurowa
 Tempomat
 Tempomat aktywny
+Tempomat adaptacyjny ACC
 Tuner TV
+Uruchamianie silnika bez użycia kluczyków
 Wielofunkcyjna kierownica
+Wycieraczki
+Wspomaganie ruszania pod górę- Hill Holder
+Wyświetlacz typu Head-Up
 Zmieniarka CD
+Zawieszenie sportowe
+Zawieszenie komfortowe
+Zawieszenie powietrzne
+Zawieszenie regulowane
+Zewnętrzne oklejenie
+Zestaw głośnomówiący
+Zmiana biegów w kierownicy
 Cena
 Szczegóły ceny
 Waluta
-Opis
