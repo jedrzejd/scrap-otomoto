@@ -2,25 +2,29 @@ import time
 import requests, bs4
 import pandas as pd
 import concurrent.futures
+import os
 
 MAX_THREADS = 8
 
 
 def make_line(main_features):
-    featsFile = open('feats.txt', 'r')
-    all_feats = featsFile.readlines()
-    all_feats = [x.replace('\n', '') for x in all_feats]
-    temp = dict()
-    for feat in all_feats:
-        if feat not in main_features.keys():
-            temp[feat] = None
-        else:
-            temp[feat] = main_features[feat]
+    path = os.path.join(os.getcwd(), 'feats.txt')
+    with open(path, 'r', encoding='utf-8') as featsFile:
+        # featsFile = open(path, 'r')
+        all_feats = featsFile.readlines()
+        all_feats = [x.replace('\n', '') for x in all_feats]
+        temp = dict()
+        for feat in all_feats:
+            if feat not in main_features.keys():
+                temp[feat] = None
+            else:
+                temp[feat] = main_features[feat]
 
     # for idx, it in temp.items():
     #     print(idx, it)
 
-    featsFile.close()
+    # featsFile.close()
+
     # print(temp)
     # df_temp = pd.DataFrame(temp.values(), temp.keys()).T
     # df = pd.concat([df, df_temp])
