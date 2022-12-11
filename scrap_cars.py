@@ -18,9 +18,9 @@ def get_cars_in_page(path, i):
     res = requests.get(path + '?page=' + str(i))
     res.raise_for_status()
     currentPage = bs4.BeautifulSoup(res.text, features='lxml')
-    carlinks = currentPage.find_all('article', class_='ooa-15j3s1f e1b25f6f0')
+    carlinks = currentPage.find('div', class_='ooa-1ykww9j e19uumca2')
     cnt = 0
-    for x in carlinks:
+    for x in carlinks.find_all('article'): # [:10]: TODO
         x = x.find('a', href=True)
         links.append(x['href'])
         # print(x['href'])
@@ -38,11 +38,13 @@ def scrap_model(model):
         pass
 
     try:
-        lastPage = int(carSoup.select('.page')[-1].text)
+        lastPage = int(carSoup.find_all('a', class_='ooa-xdlax9 ekxs86z0')[-1].text)
     except Exception:
         lastPage = 1
 
+    #lastPage = 1 TODO
 
+    print("Liczba podstron modelu = ", lastPage)
     threads = min(MAX_THREADS, lastPage)
     path = [path]*lastPage
     lastPage = range(1, lastPage + 1)
@@ -60,15 +62,19 @@ def scrap_model(model):
 for model in models:
     scrap_model(model)
 
-filenames = ['data/'+ model.replace('\n', '') + '.csv' for model in models]
+# csv_filenames = ['data/'+ model.replace('\n', '') + '.csv' for model in models]
+xlsx_filenames = ['data/'+ model.replace('\n', '') + '.xlsx' for model in models]
 
-combined_csv = []
-for f in filenames:
+combined_df = []
+for f in xlsx_filenames:
     print(f)
     try:
-        combined_csv.append(pd.read_csv(f, low_memory=False, index_col='Unnamed: 0'))
+        # combined_df.append(pd.read_csv(f, low_memory=False, index_col='Unnamed: 0'))
+        combined_df.append(pd.read_excel(f, index_col='Unnamed: 0'))
     except Exception:
         pass
 
-# pd.concat(combined_csv, ignore_index = True).to_csv('data/car.csv', index=False)
-pd.concat(combined_csv, ignore_index = True).to_pickle('data/car.pickle')
+df_all = pd.concat(combined_df, ignore_index=True)
+df_all.to_excel('car.xlsx', index=False)
+# df_all.to_csv('car.csv', index=False)
+# pd.concat(combined_csv, ignore_index = True).to_pickle('data/car.pickle')
