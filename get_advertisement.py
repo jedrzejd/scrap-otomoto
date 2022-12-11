@@ -3,28 +3,27 @@ import requests, bs4
 import pandas as pd
 import concurrent.futures
 
-
 MAX_THREADS = 8
 
 
 def make_line(main_features):
     featsFile = open('feats.txt', 'r')
     all_feats = featsFile.readlines()
-    all_feats = [x.replace('\n','') for x in all_feats]
+    all_feats = [x.replace('\n', '') for x in all_feats]
     temp = dict()
     for feat in all_feats:
         if feat not in main_features.keys():
-             temp[feat] = None
+            temp[feat] = None
         else:
-           temp[feat] = main_features[feat]
+            temp[feat] = main_features[feat]
 
     # for idx, it in temp.items():
     #     print(idx, it)
 
     featsFile.close()
-# print(temp)
-# df_temp = pd.DataFrame(temp.values(), temp.keys()).T
-# df = pd.concat([df, df_temp])
+    # print(temp)
+    # df_temp = pd.DataFrame(temp.values(), temp.keys()).T
+    # df = pd.concat([df, df_temp])
 
     return temp
 
@@ -48,7 +47,7 @@ def download_url(path):
             features[text] = label
             # print(text,':', label)
 
-        extendend_params = carSoup.find_all("li", class_='offer-features__item')
+        extendend_params = carSoup.find_all("li", class_='parameter-feature-item')
 
         for extendend_param in extendend_params:
             features[extendend_param.text.strip()] = 1
@@ -74,11 +73,8 @@ def download_url(path):
         # print(features)
         features = make_line(features)
 
-
     except:
         return None
-
-
 
     time.sleep(0.25)
 
@@ -117,12 +113,17 @@ def main(model, links):
     # t0 = time.time()
     df = download_cars(links)
     print(model, 'Wyjscie')
-    print('data/' + model +'.csv')
-    df.to_csv('data/' + model +'.csv')
+
+    # print('data/' + model + '.csv')
+    # df.to_csv('data/' + model + '.csv')
+
+    print('data/' + model + '.xlsx')
+    df.to_excel('data/' + model + '.xlsx')
 
     # t1 = time.time()
     # print(f"Site {site} took {round(t1 - t0, 2)} seconds.")
 
+# path = "https://www.otomoto.pl/oferta/tesla-model-x-tesla-x-plaid-model-2023-nowy-ID6EVI7D.html"
 # main('path', [path])
 
 # df = pd.read_csv('car.csv', index_col='Unnamed: 0')
@@ -131,4 +132,3 @@ def main(model, links):
 
 # print(df)
 # df.to_csv('car1.csv')
-
