@@ -43,6 +43,7 @@ def scrap_model(model):
         lastPage = 1
 
     #lastPage = 1 TODO
+    lastPage = min(lastPage, 500)
 
     print("Liczba podstron modelu = ", lastPage)
     threads = min(MAX_THREADS, lastPage)
