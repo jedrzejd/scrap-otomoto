@@ -17,7 +17,6 @@ citroen
 dacia
 daewoo
 daihatsu
-de-lorean
 dfsk
 dkw
 dodge
