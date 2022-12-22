@@ -56,7 +56,6 @@ mg
 microcar
 mini
 mitsubishi
-moskwicz
 nissan
 nysa
 oldsmobile
@@ -96,7 +95,6 @@ marka_warszawa
 wartburg
 wolga
 zaporozec
-zastava
 zuk
 inny
 abarth
@@ -106,5 +104,4 @@ ram
 cupra
 alpine
 bac
-radical
 vanderhall
