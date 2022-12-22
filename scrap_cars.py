@@ -3,11 +3,12 @@ import concurrent.futures
 import time
 import get_advertisement
 import pandas as pd
+import os
 
 
 MAX_THREADS = 8
-
-models = open('car_models.txt').readlines()
+path = os.path.join(os.getcwd(), 'car_models.txt')
+models = open(path, 'r', encoding='utf-8').readlines()
 links = []
 
 
@@ -18,7 +19,7 @@ def get_cars_in_page(path, i):
     res = requests.get(path + '?page=' + str(i))
     res.raise_for_status()
     currentPage = bs4.BeautifulSoup(res.text, features='lxml')
-    carlinks = currentPage.find('div', class_='ooa-1ykww9j e19uumca2')
+    carlinks = currentPage.find('main', attrs={'data-testid': 'search-results'})
     cnt = 0
     for x in carlinks.find_all('article'): # [:10]: TODO
         x = x.find('a', href=True)
