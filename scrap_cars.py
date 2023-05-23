@@ -39,7 +39,8 @@ def scrap_model(model):
         pass
 
     try:
-        lastPage = int(carSoup.find_all('a', class_='ooa-xdlax9 ekxs86z0')[-1].text)
+        lastPage = int(carSoup.find_all('li', attrs={'data-testid': 'pagination-list-item'})[-1].text)
+        # lastPage = int(carSoup.find_all('a', class_='ooa-xdlax9 ekxs86z0')[-1].text)
     except Exception:
         lastPage = 1
 
