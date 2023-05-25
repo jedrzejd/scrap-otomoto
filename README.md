@@ -1,5 +1,7 @@
 # scrap-otomoto
 
+# New version is availabe [here!!!](https://github.com/jedrzejd/Otomoto-Scraper)
+
 This program gets more than 95% advertisements from [otomoto.pl](https://otomoto.pl) with 227 features - [show features](feats.txt)
 
 ---
